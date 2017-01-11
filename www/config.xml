@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "nl.rusaja.hars"
-        version   = "1.0.1">
+        version   = "1.0.2">
 
     <name>HARS</name>
 
@@ -88,6 +88,7 @@
         Otherwise, you can specify specific domains:
     <access origin="*" />
     -->
+    <access origin="*"/>
     <access origin="http://127.0.0.1*"/>
     <access origin="http://hars.rusas.nl*"/>
     <access origin="http://www.buienradar.nl*"/>
