@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "nl.rusaja.hars"
-        version   = "1.0.4">
+        version   = "1.0.5">
 
     <name>HARS</name>
 
@@ -32,7 +32,7 @@
     <!-- Customize your app and platform with the preference element. -->
     <preference name="phonegap-version"           value="3.7.0" />
     <!-- all: current version of PhoneGap -->
-    <preference name="orientation"                value="landscape" />
+    <preference name="orientation"                value="default" />
     <!-- all: default means both landscape and portrait are enabled -->
     <preference name="HideKeyboardFormAccessoryBar" value="true"/>
     <preference name="target-device"              value="universal" />
