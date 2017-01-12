@@ -1,3 +1,6 @@
+body{
+    overflow: hidden;
+}
 .frameparent {
     background-color: #e2f2d5;
     position: absolute;
