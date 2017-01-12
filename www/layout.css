@@ -1,13 +1,14 @@
 .frameparent {
     background-color: #e2f2d5;
     position: absolute;
-    border: 0px none transparent;
     padding: 0px;
     overflow: hidden;
     left: 0;
     top: 0;
     bottom: 0;
     right: 0;
+    border: 5px solid red;
+     box-sizing: border-box;
 }
 
 .courseframe {
@@ -24,9 +25,11 @@
     right: 0px;
     width: 100%;
     height: 100%;
-    border: 5px solid red;
+    border: none;
     margin: 0;
-    padding: 0;
+    padding: 15px;
     overflow: hidden;
     z-index: 999999;
+     box-sizing: border-box;
+
 }
