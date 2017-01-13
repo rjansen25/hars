@@ -1,8 +1,9 @@
 body {
+    background-color: #68aff7;
 }
 
 .frameparent {
-    background-color: #e2f2d5;
+    background-color: #68aff7;
     position: absolute;
     padding: 0px;
     overflow: hidden;
