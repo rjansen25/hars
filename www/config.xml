@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "nl.rusaja.hars"
-        version   = "1.1.1">
+        version   = "1.1.2">
 
     <name>HARS</name>
 
@@ -16,6 +16,8 @@
         JRS
     </author>
 
+    <plugin name="cordova-plugin-whitelist" />
+    
     <!--
         Enable individual API permissions by defining each here.
         The 'device' permission is required for the 'deviceready' event.
@@ -78,6 +80,11 @@
     <gap:splash src="res/screen/splash_mdpi.png" gap:platform="android" gap:density="mdpi" />
     <gap:splash src="res/screen/splash_hdpi.png" gap:platform="android" gap:density="hdpi" />
     <gap:splash src="res/screen/splash_xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+
+    <allow-navigation href="http://hars.rusas.nl/*" />
+    <allow-navigation href="http://www.buienradar.nl/*"/>
+    <allow-navigation href="https://maxcdn.bootstrapcdn.com/font-awesome"/>
+    <allow-navigation href="http://fonts.googleapis.com/css?family=Play"/>
 
     <!--
         Define access to external domains.
